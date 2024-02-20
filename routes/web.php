@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/testing',[ProfileController::class,'asdf']);
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
